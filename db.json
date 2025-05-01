@@ -1,0 +1,33 @@
+{
+  "products": [
+    {   
+        "id": "1", 
+        "name": "Samsung S21+", 
+        "img": "https://images.anandtech.com/doci/16488/X-T30_DSF4234_678x452.jpg",
+        "description": "Test Descroption",
+        "price": 995
+    },
+    {   
+        "id": "2", 
+        "name": "Redmi Note 5", 
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7WyW0YPjG3bS-Sbl5CtUPevg7nqwhMthD8w&s",
+        "description": "Test Descroption",
+        "price": 440
+    },
+    {   
+        "id": "3", 
+        "name": "Nokia Lumia 520", 
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkk16Ku6N0nSaigB-kaJ0nA7gqR2lt9Px88A&s",
+        "description": "Test Descroption",
+        "price": 560
+    },
+    {   
+        "id": "4", 
+        "name": "Symphony v49", 
+        "img": "https://www.mobiledokan.com/media/symphony-xplorer-v49-image.webp",
+        "description": "Test Descroption",
+        "price": 160
+    }
+  ]
+  
+}
