@@ -9,15 +9,17 @@ const ProductContainer = () => {
             .then(res=>res.json())
             .then(data=>{setProducts(data)})
     },[])
+
+
     return (
         <section className="product-container">
-        <div className="container">
-            <div className="row">
-            {products.map((product) => (
-                <ProductCard key={product.id} product={product} />
-            ))}
+            <div className="container">
+                <div className="row">
+                {products.map((product) => (
+                    <ProductCard key={product.id} product={product} />
+                ))}
+                </div>
             </div>
-        </div>
         </section>
     );
 };

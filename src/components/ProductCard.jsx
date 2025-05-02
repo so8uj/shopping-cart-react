@@ -1,7 +1,9 @@
 import React from "react";
+import { useDispatch } from "react-redux";
 
 const ProductCard = (props) => {
     const {product} = props
+    const dispatch = useDispatch()
     return (
         <div className="col-lg-3">
             <div className="card product-card">
@@ -15,7 +17,7 @@ const ProductCard = (props) => {
                     <p className="card-text fw-bold">
                         <i>Price: </i> ${product.price}
                     </p>
-                    <a className="btn btn-primary btn-sm">Add to Cart</a>
+                    <button type="button" className="btn btn-primary btn-sm" onClick={()=>dispatch({type:"cart/addToCart",payload: product})}>Add to Cart</button>
                 </div>
             </div>
         </div>
